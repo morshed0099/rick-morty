@@ -6,6 +6,7 @@ import bubble from '../../media/bubble.png'
 import portal from '../../media/portal.png'
 import pill from '../../media/pill.png'
 import gun from '../../media/Gun.png'
+import { PlayCircleIcon } from '@heroicons/react/24/solid'
 
 const Bannar = () => {
     return (
@@ -45,11 +46,15 @@ const Bannar = () => {
 
                                 </h1>
                             </div>
-       
-                            <img src={gun} className='absolute w-[120px] top-[75px] right-0 h-[124px] lg:w-[320px] lg:h-[332px] lg:right-[-200px] lg:top-[50px]' alt="" />
+
+                            <img src={gun} className='absolute w-[120px] top-[50px] right-[-65px] h-[124px] lg:w-[320px] lg:h-[332px] lg:right-[-200px] lg:top-[50px]' alt="" />
                         </div>
-                        <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button className="btn btn-primary">Get Started</button>
+                        <div className='flex flex-col-reverse lg:flex-row  regular gap-12 mt-[21px] justify-center items-center'>
+                            <button className='px-[25px] rounded-full flex justify-center py-[17px] bg-gradient-to-r from-green to-light w-[200px] h-[58px] text-white'> <PlayCircleIcon className="h-6 w-6 text-white mr-4" /> Watch Now</button>
+                            <p className='text-light text-[14px]  w-[370px] mr-8'>
+                                Brilliant but boozy scientist Rick hijacks his fretful teenage grandson, Morty, for wild escapades in other worlds and alternate dimensions.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

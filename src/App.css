@@ -10,6 +10,13 @@
   font-family: bold-tavels;
   src: url(../public/Fonts/TTTravels-Bold.ttf);
 }
+@font-face {
+  font-family: regular-tavels;
+  src: url(../public/Fonts/TTTravels-Regular.ttf);
+}
+.regular{
+  font-family: regular-tavels;
+}
 .bold-tavels{
   font-family: bold-tavels;
   

@@ -6,7 +6,21 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+@font-face {
+  font-family: bold-tavels;
+  src: url(../public/Fonts/TTTravels-Bold.ttf);
+}
+.bold-tavels{
+  font-family: bold-tavels;
+  
+}
+@font-face {
+  font-family: bold-italic;
+  src: url(../public/Fonts/TTTravels-BoldItalic.ttf);
+}
+.bold-italic{
+  font-family: bold-italic;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -27,6 +41,7 @@
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {

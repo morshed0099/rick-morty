@@ -10,15 +10,8 @@ import { PlayCircleIcon } from '@heroicons/react/24/solid'
 
 const Bannar = () => {
     return (
-        <div>
-            <div className='flex justify-center items-center' style={{
-                backgroundImage: `url(${bgImage})`,
-                backgroundPosition: 'center',
-                backgroundSize: "cover",
-                backgroundRepeat: "no-repeat"
-
-            }}>
-
+        <div className='mb-[80px]'>
+            <div className='flex justify-center items-center'>
                 <div>
                     <div>
                         <div className='flex justify-center items-center mt-[58px] mb-[155px]'>
@@ -27,11 +20,11 @@ const Bannar = () => {
 
                         <div className='flex justify-center items-center relative'>
                             <div>
-                                <h1 className="items-center mr-4 heading-text text-center text-5xl lg:text-9xl font-bold">
-                                    <span className='flex justify-center items-center'>
+                                <h1 className="items-center  mr-4 heading-text text-center text-5xl lg:text-9xl font-bold">
+                                    <span className='flex title-heading justify-center items-center'>
                                         <span className='relative'>
                                             <span className='bold-italic text-white'>THE</span>
-                                            <img className='absolute top-[-45px] left-[-55px]  lg:top-[-115px] lg:left-[-150px] ' src={bubble} alt="" />
+                                            <img className='absolute top-[-45px] left-[-55px] title-heading lg:top-[-115px] lg:left-[-150px] ' src={bubble} alt="" />
                                         </span>
                                         <img src={portal} className='mr-4 ml-4 w-[70px] lg:mt-[-40px]  lg:w-[225px] lg:h-[145px]' alt="" />
                                         <span className='bold-tavels flex text-transparent bg-clip-text bg-gradient-to-r from-green to-light'>RICK <span className='ml-4'><img src={pill}

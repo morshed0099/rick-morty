@@ -1,10 +1,8 @@
 import React from 'react';
 import Slider from 'react-slick';
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
-import EpisodeCard from './EpisodeCard';
+import Location from './Location';
 
-const EpisodeCardCarusal = () => {
+const LocationCarusal = () =>  {
     var settings = {        
         infinite: false,
         speed: 500,
@@ -42,32 +40,31 @@ const EpisodeCardCarusal = () => {
         <div>        
         <Slider {...settings}>
           <div>
-            <EpisodeCard />
+            <Location />
           </div>
           <div>
-          <EpisodeCard />
+          <Location />
           </div>
           <div>
-          <EpisodeCard />
+          <Location />
           </div>
           <div>
-          <EpisodeCard />
+          <Location />
           </div>
           <div>
-          <EpisodeCard />
+          <Location />
           </div>
           <div>
-          <EpisodeCard />
+          <Location />
           </div>
           <div>
-          <EpisodeCard />
+          <Location />
           </div>
           <div>
-          <EpisodeCard />
+          <Location />
           </div>
         </Slider>
       </div>
     );
 };
-
-export default EpisodeCardCarusal;
+export default LocationCarusal;

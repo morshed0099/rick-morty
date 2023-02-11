@@ -1,33 +1,54 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+.background-light {
+  position: absolute;
+  width: 356px;
+  height: 356px;
+  right: 0;
+  top: 0;  
+  background: #2A3E84;
+  filter: blur(175px);
+}
+card-title{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
 @font-face {
   font-family: bold-tavels;
   src: url(../public/Fonts/TTTravels-Bold.ttf);
 }
+
 @font-face {
   font-family: regular-tavels;
   src: url(../public/Fonts/TTTravels-Regular.ttf);
 }
-.regular{
+
+.regular {
   font-family: regular-tavels;
 }
-.bold-tavels{
+
+.bold-tavels {
   font-family: bold-tavels;
-  
+
 }
+
 @font-face {
   font-family: bold-italic;
   src: url(../public/Fonts/TTTravels-BoldItalic.ttf);
 }
-.bold-italic{
+
+.bold-italic {
   font-family: bold-italic;
 }
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -54,6 +75,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
